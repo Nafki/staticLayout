@@ -1,0 +1,45 @@
+
+.wrraper{
+display:flex ;
+flex-direction: column;
+flex: 1;
+width: 100hw;
+border: 2px solid;
+height: 200vh;
+background-image: url(./assets/images/kastbackground.png)
+}
+
+.wrraper>*{
+padding: 10px;
+margin: 10px;
+border: 2px solid tomato;
+}
+
+
+.header {
+    display: flex;
+    border: 2px solid tomato;
+    background-color: turquoise;
+}
+
+.navbar {
+    flex: 9;
+    border: 2px solid saddlebrown;
+}
+
+#logo{ 
+    flex: 1;
+    border: 2px solid black;
+}
+
+
+.main{
+    flex: 1; 
+    
+}
+
+.main2{
+    flex: 1; 
+}
+
+
