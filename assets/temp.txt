@@ -1,3 +1,11 @@
 log- image in side flex
 company's font size check
 wrraper background image
+
+the links behind/how it goes
+image from file?
+
+Watch parties made easy</h2>
+            <p>Watch whatever you want with friends online: movies, TV shows, you name it.
+            Share your screen and camera or launch content directly from Kast TV in your watch parties. 
+            Join millions of kasters today!</p>

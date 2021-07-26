@@ -4,42 +4,112 @@ display:flex ;
 flex-direction: column;
 flex: 1;
 width: 100hw;
-border: 2px solid;
-height: 200vh;
-background-image: url(./assets/images/kastbackground.png)
+
+height: 220vh;
+background-image: url(./assets/images/kastbackground.png);
+background-attachment: fixed;
+background-size: cover;
 }
 
 .wrraper>*{
-padding: 10px;
-margin: 10px;
-border: 2px solid tomato;
+padding: 20px;
+margin:-8px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .header {
     display: flex;
-    border: 2px solid tomato;
-    background-color: turquoise;
-}
-
-.navbar {
-    flex: 9;
-    border: 2px solid saddlebrown;
 }
 
 #logo{ 
     flex: 1;
-    border: 2px solid black;
+    cursor: pointer;
+    margin-left: auto;  
 }
 
+#spacelogonav {
+flex: 3;
+}
+
+.navbar {
+    flex: 9;
+    margin-right: 20px;
+}
+
+.navul{
+    display:flex;
+    justify-content:flex-end;
+    margin: 0 10px;
+    list-style: none;
+}
+
+.navul li a{
+    margin: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+button{
+    border: white 2px solid;
+    background-color: transparent;
+    color:white
+}
 
 .main{
     flex: 1; 
-    
+    margin-right: 20px;
+}
+
+.tv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+h2{
+    font-size:30px;
+    font-weight:bold;
+}
+
+p{
+    font-size: 18px;
+    font-weight: bolder;   
+}
+
+#open{
+    border-color: rgb(247, 128, 25) ;
+    background-color: rgb(247, 128, 25);
+    width: 100px;
+    height: 30px;
+    color:white
 }
 
 .main2{
-    flex: 1; 
+    flex:1;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: cornsilk;
 }
 
+.main2>div{
+    text-align: center;
+    padding-top: 30%;
+}
 
+#future{
+    padding-top: 5%;
+}
+
+footer{
+    font-size: 18;
+    text-align: left;
+    color: white;
+}
